@@ -1,3 +1,9 @@
+---
+layout: default
+title: Open Items
+parent: Decisions & RFCs
+---
+
 # Open Roadmap Items
 
 - **Status**: Active

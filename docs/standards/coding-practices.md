@@ -1,3 +1,9 @@
+---
+layout: default
+title: Coding Practices
+parent: Standards
+---
+
 # Coding Practices
 
 We write code to be read by others.

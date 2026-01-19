@@ -1,3 +1,9 @@
+---
+layout: default
+title: GitHub Templates
+parent: Resources
+---
+
 # GitHub Configuration Templates
 
 Reference these templates when setting up new repositories.

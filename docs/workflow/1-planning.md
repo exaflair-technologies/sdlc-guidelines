@@ -1,3 +1,10 @@
+---
+layout: default
+title: 1. Planning
+parent: Delivery Workflow
+nav_order: 1
+---
+
 # Step 1: Planning
 
 Every feature starts with a clear plan. We use **Zoho Sprints** to manage our backlog and sprints.

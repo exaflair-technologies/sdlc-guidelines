@@ -1,3 +1,10 @@
+---
+layout: default
+title: 2. Development
+parent: Delivery Workflow
+nav_order: 2
+---
+
 # Step 2: Development
 
 Time to build. We prioritize a consistent local environment that mirrors production.

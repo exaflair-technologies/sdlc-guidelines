@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+nav_exclude: true
+---
+
 # Exaflair Engineering Guidelines
 
 Welcome to the Exaflair Engineering Playbook. This living document outlines how we build, ship, and maintain software.

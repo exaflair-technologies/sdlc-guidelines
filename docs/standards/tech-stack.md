@@ -1,3 +1,9 @@
+---
+layout: default
+title: Tech Stack
+parent: Standards
+---
+
 # Tech Stack & Infrastructure
 
 ## Approved Tools

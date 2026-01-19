@@ -1,3 +1,10 @@
+---
+layout: default
+title: 4. Deployment
+parent: Delivery Workflow
+nav_order: 4
+---
+
 # Step 4: Deployment & Release
 
 Features are only valuable when they reach the user.

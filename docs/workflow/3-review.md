@@ -1,3 +1,10 @@
+---
+layout: default
+title: 3. Code Review
+parent: Delivery Workflow
+nav_order: 3
+---
+
 # Step 3: Code Review
 
 Code review is our primary quality gate. It’s where we catch bugs, share knowledge, and ensure maintainability.

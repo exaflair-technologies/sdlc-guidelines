@@ -1,3 +1,9 @@
+---
+layout: default
+title: Communication
+parent: Standards
+---
+
 # Communication Protocol
 
 We prioritize **Asynchronous Communication**. Deep work requires uninterrupted focus.

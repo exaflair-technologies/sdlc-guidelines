@@ -1,3 +1,9 @@
+---
+layout: default
+title: Decision Template
+parent: Decisions & RFCs
+---
+
 # [Title]
 
 - **Status**: [Draft / Proposed / Accepted / Rejected]
