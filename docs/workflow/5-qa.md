@@ -34,6 +34,7 @@ Sampling the happy path is how dead buttons ship. The sweep rule, learned from E
 Functionality passing is not enough for anything user-facing. Every QA run includes:
 
 - **Contrast**: body text at least 4.5:1 against its background in both themes. Read every hero, banner, and overlay, not just body copy.
+- **Glyphs vs graphics**: display type laid over background imagery or line-work must stay legible where strokes cross light regions. Test the right oracle: fitting inside a card is not passing if glyphs sit on near-white graphics. Require a scrim, text-shadow, stroke, or repositioned artwork (learned from EXA-254: white `17:30` over light pitch lines).
 - **Overlap and clipping**: screenshot at a width matrix (e.g. 480 / 768 / 900 / 1024 / 1440) plus 125% zoom. Giant display type is the usual offender just above the responsive breakpoint.
 - **Responsive bands**: check just above and below each layout breakpoint; that is where fixed-size elements overflow their cards.
 - **Scaffolding leak**: design notes, lorem ipsum, sample toasts, and debug panels must not render in user-facing screens.
