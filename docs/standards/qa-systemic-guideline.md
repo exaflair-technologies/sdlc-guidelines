@@ -20,7 +20,7 @@ Source: EXA-270 Exhaustive Prototype QA Protocol (Paperclip issue `35118d00-e8cc
 ## 2. Design and aesthetic critique
 
 - Token compliance: compare computed sidebar, active, and background colors against the brand kit hex values. Record exact matches and deviations.
-- Contrast scan method: walk leaf text nodes, compute foreground/background ratio. Anything below 2.0 is a finding with element plus colors.
+- Contrast scan method: walk leaf text nodes, compute foreground/background ratio. Body text below 4.5:1 against its background in both themes is a finding with element plus colors. (The EXA-270 protocol's 2.0 figure was a coarse automated pre-scan on one prototype, not the bar.)
 - Decorative-overlap (text-over-image) check: eyeball display type over background imagery at both themes. White text over light parts of a background image is a finding. Standard mitigations: scrim or gradient overlay, text shadow, or repositioning type off the busy area.
 - Scaffolding check: design scaffolding sections (for example inspiration or scope-note blocks) must be hidden before any client send. Their presence on user-facing screens is a send-blocker.
 - Accessibility minimums: record `h1` count, landmark presence (header, nav, main), named buttons, keyboard path for key flows (including Enter-to-send where a chat input exists), and font stacks ending in system fallbacks. No lorem, no emoji-as-icon overload, consistent title case.
